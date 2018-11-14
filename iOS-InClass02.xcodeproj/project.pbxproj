@@ -14,6 +14,9 @@
 		1F1EC5A82183A514006B708C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1EC5A62183A514006B708C /* LaunchScreen.storyboard */; };
 		1F1EC5B32183A514006B708C /* iOS_InClass02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EC5B22183A514006B708C /* iOS_InClass02Tests.swift */; };
 		1F1EC5BE2183A514006B708C /* iOS_InClass02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EC5BD2183A514006B708C /* iOS_InClass02UITests.swift */; };
+		1F1EC5CC2183BEBD006B708C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EC5CB2183BEBD006B708C /* ProfileViewController.swift */; };
+		1F1EC5CE2183BF27006B708C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EC5CD2183BF27006B708C /* User.swift */; };
+		1F1EC5D02183E1E9006B708C /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1EC5CF2183E1E9006B708C /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1F1EC5B92183A514006B708C /* iOS-InClass02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-InClass02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1EC5BD2183A514006B708C /* iOS_InClass02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_InClass02UITests.swift; sourceTree = "<group>"; };
 		1F1EC5BF2183A514006B708C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1EC5CB2183BEBD006B708C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1F1EC5CD2183BF27006B708C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1F1EC5CF2183E1E9006B708C /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				1F1EC59D2183A513006B708C /* AppDelegate.swift */,
 				1F1EC59F2183A513006B708C /* ViewController.swift */,
+				1F1EC5CB2183BEBD006B708C /* ProfileViewController.swift */,
 				1F1EC5A12183A513006B708C /* Main.storyboard */,
+				1F1EC5CD2183BF27006B708C /* User.swift */,
 				1F1EC5A42183A514006B708C /* Assets.xcassets */,
 				1F1EC5A62183A514006B708C /* LaunchScreen.storyboard */,
 				1F1EC5A92183A514006B708C /* Info.plist */,
+				1F1EC5CF2183E1E9006B708C /* NameViewController.swift */,
 			);
 			path = "iOS-InClass02";
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1EC5CE2183BF27006B708C /* User.swift in Sources */,
+				1F1EC5CC2183BEBD006B708C /* ProfileViewController.swift in Sources */,
 				1F1EC5A02183A513006B708C /* ViewController.swift in Sources */,
 				1F1EC59E2183A513006B708C /* AppDelegate.swift in Sources */,
+				1F1EC5D02183E1E9006B708C /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
